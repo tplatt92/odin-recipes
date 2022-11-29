@@ -1,0 +1,63 @@
+img {
+    padding: 5px;
+    border: solid #f6834f 7px;
+    border-radius: 5deg;
+}
+
+.lasagna {
+    height: 250px;
+    width: 250px;
+
+}
+
+.carb {
+    height: 250px;
+    width: 250px;
+}
+
+.pizza {
+    height: 250px;
+    width: 250px;
+}
+
+body {
+    background-color: bisque;
+}
+
+a {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #f6834f;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+}
+
+.grid-item {
+    background-color: #f6834f;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+footer {
+    color: #f6834f;
+    text-align: center;
+}
